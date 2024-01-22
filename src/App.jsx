@@ -16,7 +16,7 @@ function App() {
   }, [])
 
   const randomPhrase = () => {
-    const randomIndex = Math.floor(Math.random() * (totalPhrase + 1));
+    const randomIndex = Math.floor(Math.random() * (totalPhrase));
     setIndex(randomIndex);
 
     const randomBgIndex = Math.floor(Math.random() * bgArray.length);
