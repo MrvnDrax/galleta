@@ -24,7 +24,7 @@ function App() {
   };
 
   const bgStyle = {
-    backgroundImage: `url('../public/fondo${bgApp}.png')`
+    backgroundImage: `url('/fondo${bgApp}.png')`
   };
 
   return (
